@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Layout/Header';
 
 function App() {
   return (
     <div className="App">
-       <img src={require('./logo.png')} alt="logo" />
-
+       
+        <Header/>
 
     </div>
   );
