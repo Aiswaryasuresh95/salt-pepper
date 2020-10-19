@@ -1,16 +1,67 @@
 header{
     display: flex;
-     height: 70px;
+     height: 90px;
      width: 100%;
+     color:#616161;
+     border-bottom: 1px solid white;
+     box-shadow: 1px 5px 10px #e0e0e0;
+
      
-
-
-
+     
 img{
     height: 150px;
     width: 150px;
-    padding-left: 100px;
+    padding-left: 90px;
+    margin-top: -30px;
 
-    
 }
+.buttons{
+    margin: 25px;
+    
+  }
+  .logbutton{
+      background-color: white;
+      border: 1px solid #FF9800 ;
+      margin-left: 10px;
+      width:auto ;
+      height: 50px;
+      padding: 0 20px 0 20px;
+      border-radius: 20px;
+      font-size: 15px;
+      color: #616161;
+      
+  }
+   
+
+.options{
+      display: flex;
+      width: 50%;
+      height: 100%;
+      padding-left: 30px;
+      
+    
+     
+.menu{
+    margin:5%;
+    margin-top: 20px;
+
+.icons{
+    color:#FF9800;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    
+      }
+      .option{
+          border-bottom: 5px solid transparent ;
+          
+      }
+      .option:hover{
+
+        border-bottom: 5px solid #FF9800 ;
+        cursor: pointer;
+
+      }
+   }  
+ }
 }
