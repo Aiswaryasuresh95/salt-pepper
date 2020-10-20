@@ -1,22 +1,28 @@
 header{
     display: flex;
-     height: 90px;
+     height: 70px;
      width: 100%;
      color:#616161;
      border-bottom: 1px solid white;
      box-shadow: 1px 5px 10px #e0e0e0;
+     padding-bottom: 15px;
+     font-size: 1rem;
+     overflow: hidden;
+
+     
 
      
      
 img{
     height: 150px;
     width: 150px;
-    padding-left: 90px;
+    
     margin-top: -30px;
 
 }
 .buttons{
     margin: 25px;
+    padding-left:10rem;
     
   }
   .logbutton{
@@ -41,27 +47,28 @@ img{
       
     
      
-.menu{
-    margin:5%;
-    margin-top: 20px;
+    .menu{
+      margin-right: 3%;
+      margin-top: 15px;
+      width: auto;
+      height: 100%;
+            
+      
 
-.icons{
-    color:#FF9800;
-    display: block;
-    margin-left: auto;
-    margin-right: auto ;
+    .icons{
+      color:#FF9800;
+      display: block;
+      margin-left: auto;
+      margin-right: auto ;
+      font-size: 40px;
     
       }
-      .option{
-          border-bottom: 5px solid transparent ;
+      p{
+         margin-top: 0px;
+     }
+         
           
-      }
-      .option:hover{
-
-        border-bottom: 5px solid #FF9800 ;
-        cursor: pointer;
-
-      }
+      
    }  
  }
 }

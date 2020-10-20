@@ -33,7 +33,7 @@ const Header = () =>
 
                </div>
                <div className="buttons">
-                     <CoustomButton>Pick a Meal</CoustomButton>
+                     <CoustomButton>Get Start</CoustomButton>
                      <button className="logbutton">
                           Log In
                      </button>
