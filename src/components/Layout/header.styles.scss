@@ -1,30 +1,31 @@
+
+$themecolr:#616161;
+
+
+
 header{
     display: flex;
      height: 70px;
      width: 100%;
-     color:#616161;
+     color:$themecolr;
      border-bottom: 1px solid white;
      box-shadow: 1px 5px 10px #e0e0e0;
      padding-bottom: 15px;
      font-size: 1rem;
      overflow: hidden;
 
-     
-
-     
-     
-img{
+   img{
     height: 150px;
     width: 150px;
     
     margin-top: -30px;
 
-}
-.buttons{
+   }
+   .buttons{
     margin: 25px;
     padding-left:10rem;
     
-  }
+    }
   .logbutton{
       background-color: white;
       border: 1px solid #FF9800 ;
@@ -39,7 +40,7 @@ img{
   }
    
 
-.options{
+  .options{
       display: flex;
       width: 50%;
       height: 100%;
@@ -47,28 +48,40 @@ img{
       
     
      
-    .menu{
-      margin-right: 3%;
-      margin-top: 15px;
-      width: auto;
-      height: 100%;
-            
-      
+       .menu{
+          margin-right: 4%;
+          margin-top: 15px;
+           width: auto;
+           height: 100%;
+         
+             .option{
+               text-decoration: none;
 
-    .icons{
-      color:#FF9800;
-      display: block;
-      margin-left: auto;
-      margin-right: auto ;
-      font-size: 40px;
+                 &:active,
+                 &:visited,
+                 &:link{
+                 color:$themecolr;
+                 border: 2px bold black;
+                 
+                
+
+               &:hover{
+               color:$themecolr;
+              border: 2px;
+             }
+            }
+       .icons{
+        color:#FF9800;
+        display: block;
+        margin-left: auto;
+        margin-right: auto ;
+         font-size: 40px;
     
       }
       p{
          margin-top: 0px;
-     }
-         
-          
-      
-   }  
+       }
+     }    
+  }  
  }
 }
