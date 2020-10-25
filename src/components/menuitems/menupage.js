@@ -5,28 +5,59 @@ import vegan from '../../assets/vegan.jpg';
 
 
 const MenuData = [
-    {
-        id : 1,
-        title : 'Non Vegetarian',
-        imageUrl : nonveg
-        
+ { 
+     id : 1,
+     title :'Select Your Preference',
+     items:[
+             {
+                id: 1,
+                name : 'Non Vegetarian',
+                imageUrl : nonveg
+                
 
+            },
+                {
+                id : 2,
+                name : 'Vegetarian',
+                imageUrl : veg
+                
+
+            },
+            {
+                id : 3,
+                name : 'Vegan',
+                imageUrl : vegan
+
+            }
+        ]
     },
-        {
-           id : 2,
-         title : 'Vegetarian',
-         imageUrl : veg
-        
+    {
+        id :2,
+        title : 'kerala cusins',
+        items :[
+            {
+                id: 1,
+                name : 'Non Vegetarian',
+                imageUrl : nonveg
+                
 
-     },
-     {
-         id : 3,
-         title : 'Vegan',
-         imageUrl : vegan
-        
+            },
+                {
+                id : 2,
+                name : 'Vegetarian',
+                imageUrl : veg
+                
 
-     },
+            },
+            {
+                id : 3,
+                name : 'Vegan',
+                imageUrl : vegan
 
+            }
+
+        ]
+    }
 
 ];
 

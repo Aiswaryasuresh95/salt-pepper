@@ -45,7 +45,8 @@ const Header = () =>
 
                </div>
                <div className="buttons">
-                     <CoustomButton>Get Start</CoustomButton>
+                    <Link className="custom" to='/signin'>
+                     <CoustomButton>Get Start</CoustomButton></Link>
                      <button className="logbutton">
                           Log In
                      </button>
