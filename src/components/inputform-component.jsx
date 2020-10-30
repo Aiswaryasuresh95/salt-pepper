@@ -5,7 +5,7 @@ const InputForm = ({register,error,id,label,...inputprops}) =>
 
 {
     return<>
-       <label>{label}</label>
+       <label htmlFor={id}>{label}</label>
        <input
           ref={register}
           id={id}

@@ -3,6 +3,7 @@ import './signin-styles.scss';
 import InputForm from '../../components/inputform-component';
 import {useForm} from 'react-hook-form';
 import * as yup from 'yup';
+import CoustomButton from '../../components/button/coustom-button';
 
 
 const SignIn = () => {
@@ -25,7 +26,7 @@ const SignIn = () => {
     }
 
     return(
-        <div className="flex-container">
+        <div className="container">
             <div className="box1">
                 <div className="para1"></div>
                 <h1>Register</h1>
@@ -33,21 +34,18 @@ const SignIn = () => {
             </div>
 
             <div className="box2">
-               <form onSubmit={handleSubmit(onSubmit)}>
+               <formatMs>
                    <InputForm
                     id="login"
                     name="login"
                     type="text"
                     label="Login"
-                    register={register({
-                        required :true,
-                        max:25,
-                        min:10
-                    })}
+                    register={register}
                     error={errors.login}
 
                    />
                    {errors.login && <div>{errors.login.message}</div>}
+                   <CoustomButton onClick={handleSubmit(onSubmit)}/>
                     <button type="submit">Log in</button>
 
                </form>
